@@ -1,0 +1,88 @@
+.card-form {
+  grid-column: 2/5;
+  grid-row: 6/7;
+  padding-inline: 1em;
+}
+label, input {
+  display: block;
+}
+label,
+legend,
+fieldset {
+  letter-spacing: 0.15em;
+  color: var(--neutral-600);
+  margin-bottom: 0.8em;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  gap: 1em;
+}
+fieldset {
+  border: none;
+  display: flex;
+  gap: 1em;
+}
+input, 
+button {
+  width: 100%;
+  border-radius: 8px;
+  font-size: var(--fs-500);
+  letter-spacing: 0.04rem;
+}
+.input-wrap {
+  margin-bottom: 1em;
+  border-radius: 9px;
+  padding: 2px;
+}
+.input-wrap-no-error:hover,
+.input-wrap-no-error:focus-within{
+  background: var(--primary-gradient);
+}
+.input-wrap-error {
+  background-color: var(--primary-red);
+}
+.input-wrap-error > input {
+  border: none;
+}
+input {
+  padding: 0.7em;
+  border: 1px solid var(--neutral-400);
+  opacity: .8;
+  color: var(--neutral-600);
+  opacity: 1;
+}
+input::placeholder {
+  color:var(--neutral-400);
+}
+input:hover,
+input:focus {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button {
+  padding: 1em;
+  border: none;
+  background-color: var(--neutral-600);
+  color: var(--neutral-300);
+  font-weight: bold;
+}
+button:hover:enabled,
+button:focus:enabled {
+  background: var(--primary-gradient);
+  outline: none;
+}
+button:disabled {
+  background-color: var(--neutral-400);
+}
+.form-error {
+  display: block;
+  text-transform: none;
+  color: var(--primary-red);
+  font-size: var(--fs-300);
+  font-weight: normal;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  letter-spacing: normal;
+}
