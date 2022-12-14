@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-card-details-form-YtYVSmYACk)
 - [Live Site URL](https://incredible-baklava-bc3e30.netlify.app/)
 
 ## My process
