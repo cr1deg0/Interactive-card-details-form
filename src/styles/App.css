@@ -93,7 +93,7 @@ main {
 @media (min-width: 900px) {
   main {
     grid-template-columns: 12% 8% 1fr 10% 1fr 12%;
-    grid-template-rows: 40% 240px 10% 1fr;
+    grid-template-rows: 25% 240px 10% 1fr;
   }
   .card {
   width: min(440px, 30vw);
