@@ -1,9 +1,4 @@
 .card-front {
-  width: 280px;
-  height: 150px;
-  color: var(--neutral-300);
-  padding: 1.8em;
-  border-radius: 8px;
   background-image: url('../images/bg-card-front.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,14 +14,15 @@
   margin-top: -1em;
 }
 .card-number {
-  font-size: var(--fs-500);
+  font-size: var(--fs-600);
 }
 .card-bottom-section {
   display: flex;
   justify-content: space-between;
 
 }
-.card-holder-name {
+.card-holder-name,
+.card-expiry-date {
   font-size: var(--fs-300);
   text-transform: uppercase;
 }

@@ -1,6 +1,4 @@
 .card-form {
-  grid-column: 2/5;
-  grid-row: 6/7;
   padding-inline: 1em;
 }
 label, input {
@@ -65,15 +63,16 @@ button {
   padding: 1em;
   border: none;
   background-color: var(--neutral-600);
-  color: var(--neutral-300);
   font-weight: bold;
+  color: var(--neutral-300);
 }
-button:hover:enabled,
-button:focus:enabled {
+button:hover[aria-disabled="false"],
+button:focus[aria-disabled="false"] {
   background: var(--primary-gradient);
   outline: none;
+  cursor: pointer;
 }
-button:disabled {
+button[aria-disabled="true"] {
   background-color: var(--neutral-400);
 }
 .form-error {

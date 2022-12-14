@@ -1,10 +1,5 @@
 
 .card-back {
-  width: 280px;
-  height: 150px;
-  color: var(--neutral-300);
-  padding: 1.8em;
-  border-radius: 8px;
   background-image: url('../images/bg-card-back.png');
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/BackCard.css'
 
-const BackCard = ({ placeholder, cardForm }) => {
+const BackCard = ({ cardForm }) => {
   return (
-    <div className='card-back'>
-      <p>
+    <div aria-hidden = 'true' className='card card-back'>
+      <p data-testid='card-cvc'>
         { cardForm.cvc !== '' ? cardForm.cvc : '000' }
       </p>
     </div>

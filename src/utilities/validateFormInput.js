@@ -30,7 +30,7 @@ const validateFormInput = (event, name, value, setErrors) => {
       break
 
     case 'expiryMonth':
-      const monthRegex = /[0-1][0-9]/
+      const monthRegex = /^(0[1-9]|1[012])$/
       validInput = monthRegex.test(value)
       errorField = 'monthError'
       errorMessage = "Wrong month format"

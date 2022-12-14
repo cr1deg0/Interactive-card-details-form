@@ -1,0 +1,25 @@
+.thankyou-card {
+  padding: 1em;
+  text-align: center;
+}
+
+.thankyou-card svg {
+  margin-bottom: 2em;
+}
+.thankyou-card h2 {
+  font-size: var(--fs-700);
+  letter-spacing: .2em;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+.thankyou-card p {
+  font-size: var(--fs-500);
+  color: var(--neutral-500);
+  font-weight: bold;
+  letter-spacing: .05em;
+  margin-bottom: 2.5rem;
+}
+a {
+  text-decoration: none;
+  color: var(--neutral-300);
+}
