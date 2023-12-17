@@ -2,6 +2,8 @@
 
 This is a solution to the [Interactive card details form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+<img width="1319" alt="interactive card" src="https://github.com/cr1deg0/Interactive-card-details-form/assets/86016298/19bc3a07-1a27-472a-ab22-525fe7d8a047">
+
 ## Table of contents
 
 - [Overview](#overview)
